@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F459C621-E87E-4A27-89BB-8E8F46D51E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xavier.Usuario.EF.Api", "src\Xavier.Usuario.EF.Api\Xavier.Usuario.EF.Api.csproj", "{3687261C-0BAC-431D-999A-F47E7343A642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoEFCore", "src\Dev.Io.EF\CursoEFCore.csproj", "{118382E8-B7A4-45A2-B7F2-CBB634566F6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3687261C-0BAC-431D-999A-F47E7343A642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3687261C-0BAC-431D-999A-F47E7343A642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3687261C-0BAC-431D-999A-F47E7343A642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3687261C-0BAC-431D-999A-F47E7343A642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118382E8-B7A4-45A2-B7F2-CBB634566F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118382E8-B7A4-45A2-B7F2-CBB634566F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118382E8-B7A4-45A2-B7F2-CBB634566F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118382E8-B7A4-45A2-B7F2-CBB634566F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3687261C-0BAC-431D-999A-F47E7343A642} = {F459C621-E87E-4A27-89BB-8E8F46D51E8E}
+		{118382E8-B7A4-45A2-B7F2-CBB634566F6F} = {F459C621-E87E-4A27-89BB-8E8F46D51E8E}
+	EndGlobalSection
+EndGlobal
